@@ -1,2 +1,11 @@
-# declaretaive-pipeline---project
-declaretive pipelinwe
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
